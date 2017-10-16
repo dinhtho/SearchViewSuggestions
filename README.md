@@ -7,3 +7,4 @@
         autocompleteView = (AutoCompleteTextView) findViewById(R.id.autocompleteView);
        autocompleteView.setAdapter(adapter);
 ```
+![img] (https://github.com/dinhtho/SearchViewSuggestions/blob/master/image.png)
