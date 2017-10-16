@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
         AutoCompleteDogsAdapter adapter = new AutoCompleteDogsAdapter(this,list);
         autocompleteView = (AutoCompleteTextView) findViewById(R.id.autocompleteView);
         autocompleteView.setAdapter(adapter);
+//        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, list);
+//        autocompleteView = (AutoCompleteTextView) findViewById(R.id.autocompleteView);
+//        autocompleteView.setAdapter(adapter);
+
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
